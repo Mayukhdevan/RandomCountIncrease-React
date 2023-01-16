@@ -1,0 +1,50 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto';
+}
+.main-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  min-height: 100vh;
+  padding: 1rem;
+}
+.bg-container {
+  background-image: linear-gradient(#ff6e7f, #bfe9ff);
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 15px;
+  aspect-ratio: 1 / 1;
+  width: 100%;
+  max-width: 766px;
+}
+.counter-heading {
+  margin-bottom: 5rem;
+  font-size: 3rem;
+  color: #0f172a;
+}
+.odd-even-text {
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+    color: #334155;
+}
+button {
+    font-size: 1.2rem;
+    padding: .75rem 3rem;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    margin-bottom: 1rem;
+    cursor: pointer;
+}
+.instructions-text {
+    font-size: 1rem;
+    color: #1e293b;
+}
